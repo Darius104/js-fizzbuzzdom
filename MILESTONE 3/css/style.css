@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #083b4c;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+    font-size: 50px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    background-color: #1389b2;
+}
+.b3{
+    background-color: #0bd6a1;
+}
+.b5{
+    background-color: #ffd166;
+}
+.bTot{
+    background-color: #f0466f;
+}

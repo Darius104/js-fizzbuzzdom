@@ -13,23 +13,19 @@
 //     }
 // );
 for( let z = 1; z <= 100; z++ ){
-
-    if ( z % 3 == 0 && z % 5 == 0 ){
+    
+    if( z % 3 === 0 && z % 5 === 0){
         console.log('FizzBuzz');
         z = z + 1;
-
-    }
-    if ( z % 3 == 0 ){
+        
+    }else if( z % 3 === 0 ){
         console.log('Fizz');
         z = z + 1;
 
-    }
-    if ( z % 5 == 0){
+    }else if( z % 5 === 0 ){
         console.log('Buzz');
         z = z + 1;
-
     }
     console.log(z);
-    
 }
 

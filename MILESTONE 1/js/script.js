@@ -24,12 +24,12 @@ for( let z = 1; z <= 100; z++ ){
         z = z + 1;
 
     }
-    if ( z % 5 == 0 ){
+    if ( z % 5 == 0){
         console.log('Buzz');
         z = z + 1;
 
     }
-    
     console.log(z);
+    
 }
 
